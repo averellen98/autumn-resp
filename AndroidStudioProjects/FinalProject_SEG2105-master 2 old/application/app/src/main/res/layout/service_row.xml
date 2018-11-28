@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="5sp"
+    card_view:cardElevation="5sp">
+
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="@string/element_text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:text="@string/edit"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

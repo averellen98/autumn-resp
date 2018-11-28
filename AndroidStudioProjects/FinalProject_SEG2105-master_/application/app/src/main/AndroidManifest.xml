@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.group.group_project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LogInActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".AdminView" />
+        <activity android:name=".HomeOwnerView" />
+        <activity android:name=".ServiceProviderView" />
+        <activity android:name=".UsersListView" />
+        <activity
+            android:name=".ViewServicesActivity"
+            android:label="@string/title_activity_view_services" />
+        <activity
+            android:name=".CreateOrEditServiceActivity"
+            android:label="@string/title_activity_create_or_edit_service" />
+        <activity android:name=".CreateProfileSPActivity" />
+        <activity
+            android:name=".AvailabilityActivity"
+            android:label="@string/title_activity_availability" />
+        <activity
+            android:name=".SPAvailableServiceActivity"
+            android:label="@string/title_activity_spavailable_service" />
+        <activity
+            android:name=".SPViewServicesActivity"
+            android:label="@string/title_activity_spview_services" />
+        <activity
+            android:name=".HomeOwnerSearchServices"
+            android:label="@string/title_activity_home_owner_search_services" />
+        <activity
+            android:name=".HomeOwnerBookings"
+            android:label="@string/title_activity_home_owner_bookings" />
+        <activity
+            android:name=".HomeOwnerFoundServiceList"
+            android:label="@string/title_activity_home_owner_found_service_list" />
+        <activity
+            android:name=".CreateBooking"
+            android:label="@string/title_activity_create_booking"></activity>
+        <activity
+            android:name=".HomeOwnerRateService"/>
+    </application>
+
+</manifest>

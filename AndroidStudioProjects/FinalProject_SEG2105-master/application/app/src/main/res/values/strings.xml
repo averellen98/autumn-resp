@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Group_Project</string>
+    <string name="logIn">Log In</string>
+    <string name="signUp">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="admin">Admin</string>
+    <string name="serviceProvider">Service Provider</string>
+    <string name="homeOwner">Home Owner</string>
+    <string name="role">Role</string>
+    <string name="continueButton">Continue</string>
+    <string name="username">Username</string>
+    <string name="viewServices">View Services</string>
+    <string name="element_text" />
+    <string name="title_activity_view_services">ViewServicesActivity</string>
+    <string name="createService">Create Service</string>
+    <string name="title_activity_create_or_edit_service">CreateOrEditServiceActivity</string>
+    <string name="serviceName">Service Name</string>
+    <string name="serviceDescription">Service Description</string>
+    <string name="ratePerHour">Rate per Hour</string>
+    <string name="rateHint">1.00</string>
+    <string name="updateService">Update Service</string>
+    <string name="companyName">Company Name</string>
+    <string name="profileDescription">ProfileDescription</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="generalDescription">General Description</string>
+    <string name="title_activity_availability">AvailabilityActivity</string>
+    <string name="title_activity_spavailable_service">SPAvailableServiceActivity</string>
+    <string name="title_activity_spview_services">SPViewServicesActivity</string>
+    <string name="title_activity_home_owner_search_services">HomeOwnerSearchServices</string>
+    <string name="title_activity_home_owner_bookings">HomeOwnerBookings</string>
+    <string name="title_activity_home_owner_found_service_list">HomeOwnerFoundServiceList</string>
+    <string name="title_activity_create_booking">CreateBooking</string>
+</resources>

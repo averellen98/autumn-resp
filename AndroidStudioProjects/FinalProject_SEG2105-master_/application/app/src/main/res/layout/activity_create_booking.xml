@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateBooking">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nwhfpinieog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service Provider Availabilites for this Service" />
+
+        <TextView
+            android:id="@+id/serviceProviderAvailabilityText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Time" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Hour" />
+
+            <EditText
+                android:id="@+id/bookingStartHourText"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="HH"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Minute" />
+
+            <EditText
+                android:id="@+id/bookingStartMinuteText"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="MM"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="End Time" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Hour" />
+
+            <EditText
+                android:id="@+id/bookingEndHourText"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="HH"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Minute" />
+
+            <EditText
+                android:id="@+id/bookingEndMinuteText"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="MM"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/gbuorenvrs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day" />
+
+        <EditText
+            android:id="@+id/bookingDayText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="e.g. '1', or '31'"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Month" />
+
+        <EditText
+            android:id="@+id/bookingMonthText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="e.g. '1' for January, '12' for December"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Year" />
+
+        <EditText
+            android:id="@+id/bookingYearText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="e.g. 2019"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/createBookingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Booking" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
